@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demos - Kayla,David,Conrad,etc</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <div id="error" style="background-color:red">Failed to log in! (maybe an invalid password?)</div>
+    <h1>Welcome to the demo</h1>
+
+    <p>Why don't you choose a voice and start!</p>
+
+    <form action="/createAudio.html" method="get">
+      <input type="text" name="msg" placeholder="Enter text here" />
+      <input id="demo" type="text" name="key" value="Jerry" />
+      <input type="submit" value="submit"/>
+    </form>
+    <form id="form" action="/apiTest.html" method="get">
+      <input type="text" name="pass" placeholder="Enter password" />
+      <input id="lool" type="text" name="rdr" value="demo" />
+      <input type="submit" value="submit"/>
+    </form>
+    <script>
+    document.getElementById('error').style.display='none';//Hide the log in error.  
+    document.getElementById('demo').style.display='none';//Hide jerry.
+    document.getElementById('lool').style.display='none';//Hide redirection.
+    let man = window.location.href;
+    if (man.includes("loggedin"))
+    {
+    document.getElementById('form').style.display='none';    
+    }
+    if (man.includes("invalid"))
+    {
+    document.getElementById('error').style.display='block';    
+    }
+    </script>
+    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+
+    <p>Here's how you can add an image:</p>
+
+    <p>Here's how to make a list:</p>
+
+    <ul>
+      <li>First thing</li>
+      <li>Second thing</li>
+      <li>Third thing</li>
+    </ul>
+
+    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+    <img src="/neocities.png" style="width:100px;length:50px;">
+  </body>    
+</html>
