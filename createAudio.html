@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Your Audio</title>
+  </head>
+  <body>
+<p id="demo"></p>
+<h1 id="true"></h1>
+<br>
+<img id="screwge" src="/Screwge.png" title="Scroge is mad at you.">
+<script>
+let c = window.location.href;
+document.getElementById('screwge').style.display='none';//Hide screwge.
+let length = c.length;
+let result = c.indexOf("msg=") + 5;//This is your message letter
+//document.getElementById("demo").innerHTML =
+//"The full URL of this page is:<br>" + c;
+if (c.includes("key=Jerry") && c.includes("msg"))//Allowed!
+{
+document.getElementById("true").innerHTML = "Allowed! " + result;
+}
+else if (length < 51)
+{
+document.getElementById('screwge').style.display='block';//bruh.
+document.getElementById("true").innerHTML = "bruh, you forgot the parameters.";
+}
+else
+{
+document.getElementById("true").innerHTML = "NOT ALLOWED!!!!";
+}
+</script>
+  </body>
+</html>
