@@ -1,6 +1,8 @@
 # VoiceForge-Remastered
 VoiceForge revival.
+<br>
 This is a revival of the og voiceforge from 2008-2021. All voices and rights go to cepstral.
+<br>
 This will include but NOT limited to:
 <br>
 David
@@ -41,6 +43,8 @@ Ducchess
 <br>
 and last, Duncan.
 <br>
-We will figure out how to get diesel pretty soon.
+We will figure out how to get diesel pretty soon because somehow Cepstral might have Diesel in the voice files on their website.
+<br>
 This is a mimic of the voiceforge api.
+<br>
 This is still being worked on so dont get to hefty.
