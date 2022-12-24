@@ -9,10 +9,6 @@ DirectoryIndex index.php index.html index.htm
 
 RewriteEngine on
 
-#WWW REWRITE
-RewriteCond %{HTTP_HOST} ^example\.com$ [NC]
-RewriteRule ^(.*)$ https://b0y10.github.io/VoiceForge-Remastered/$1 [L,R=301]
-
 #REDIRECT OLD PAGE
 RewriteCond %{HTTP_HOST} ^https://b0y10.github.io/VoiceForge-Remastered/$
 RewriteRule ^old-page.html$ https://b0y10.github.io/VoiceForge-Remastered/new-page [R=301,L]
