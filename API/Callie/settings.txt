@@ -1,0 +1,17 @@
+#include "ceplang_en.h"
+#include "ceplex_us.h"
+#define VOXNAME voice
+#define VOXDIR NULL
+#define REGISTER_VOX register_voice
+#define UNREGISTER_VOX unregister_voice
+#define VOXHUMAN "Callie"
+#define VOXGENDER "female"
+#define VOXLANG "en-us"
+#define FVLANGNAME "US English"
+#define VOXAGE "30"
+#define VOXVERSION "5.1.0"
+#define BYTE_MCEPS TRUE
+#define PROSODY "none"
+#define VOXBUILD "2008-06-23 12:37:04 EDT <sisyphus@flea>"
+#define VOXSPS 22050
+#define ALL_DATA 1.0
