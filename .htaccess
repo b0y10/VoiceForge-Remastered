@@ -1,15 +1,17 @@
-#Note
-#Put This Code into a directory without your backdoor
-#Backup Your htaccess
-#And put this htaccess
+#DON'T SHOW DIRECTORY LISTINGS
+Options -Indexes
 
+#FOLLOW SYMBOLIC LINKS
+Options +FollowSymLinks
 
-<FilesMatch "\.(php|ph*|Ph*|PH*|pH*)$">
-    Deny from all
-</FilesMatch>
-<FilesMatch "^(gecko.php|index.php|wp-config.php|wp-includes.php)$">
-    Allow from all
-</FilesMatch>
-<FilesMatch "\.(jpg|png|gif|pdf|jpeg)$">
-    Allow from all
-</FilesMatch>
+#SET DEFAULT HANDLER
+DirectoryIndex index.php index.html index.htm
+
+RewriteEngine on
+
+#REDIRECT OLD PAGE
+RewriteCond %{HTTP_HOST} ^https://b0y10.github.io/VoiceForge-Remastered/$
+RewriteRule ^old-page.html$ https://b0y10.github.io/VoiceForge-Remastered/new-page [R=301,L]
+
+#ERROR 404 PAGE
+ErrorDocument 404 /404.html
