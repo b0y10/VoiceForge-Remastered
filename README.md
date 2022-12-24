@@ -43,7 +43,7 @@ Ducchess
 <br>
 and last, Duncan.
 <br>
-We will figure out how to get diesel pretty soon because somehow Cepstral might have Diesel in the voice files on their website.
+We will figure out how to get diesel pretty soon.
 <br>
 This is a mimic of the voiceforge api.
 <br>
