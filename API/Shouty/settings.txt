@@ -1,0 +1,18 @@
+#include "ceplang_en.h"
+#include "ceplex_us.h"
+#define VOXNAME voice
+#define VOXDIR NULL
+#define REGISTER_VOX register_voice
+#define UNREGISTER_VOX unregister_voice
+#define VOXHUMAN "Shouty"
+#define VOXGENDER "male"
+#define VOXLANG "en-us"
+#define FVLANGNAME "US English"
+#define VOXAGE "30"
+#define VOXVERSION "5.1.0"
+#define BYTE_MCEPS TRUE
+#define PROSODY "none"
+#define VOXBUILD "2006-01-10 05:15:51 EST <sisyphus@flea>"
+#define VOXSPS 16000
+#define ALL_DATA 1.0
+
