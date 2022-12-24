@@ -23,7 +23,7 @@ Katrin
 <br>
 Lawrence
 <br>
-MilliE
+Millie
 <br>
 Robin (Tween Girl)
 <br>
