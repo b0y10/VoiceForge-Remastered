@@ -1,7 +1,14 @@
-<h1>Hi i am a php</h1>
+<!DOCTYPE html>
+<html>
+<body>
 
 <?php
 $vaice = $_GET['voice'];
 $text = $_GET['msg'];
 echo "test";
 ?>
+
+</body>
+</html>
+
+
