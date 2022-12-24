@@ -1,4 +1,5 @@
 # VoiceForge-Remastered
+#Go here: https://b0y10.github.io/VoiceForge-Remastered/index.html
 VoiceForge revival.
 <br>
 This is a revival of the og voiceforge from 2008-2021. All voices and rights go to cepstral.
