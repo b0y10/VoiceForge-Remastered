@@ -44,8 +44,6 @@ Ducchess
 <br>
 and last, Duncan.
 <br>
-We will figure out how to get diesel pretty soon.
-<br>
 This is a mimic of the voiceforge api.
 <br>
 This is still being worked on so dont get to hefty.
